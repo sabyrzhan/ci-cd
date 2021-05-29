@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "ae09387a-f709-455f-b3af-e86309ab3b48",
+		"name": "CI-CD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAPI",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://run.mocky.io/v3/6d244af6-5313-4cfe-8c6b-00d67c61cf81",
+					"protocol": "https",
+					"host": [
+						"run",
+						"mocky",
+						"io"
+					],
+					"path": [
+						"v3",
+						"6d244af6-5313-4cfe-8c6b-00d67c61cf81"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
