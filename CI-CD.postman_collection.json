@@ -7,6 +7,17 @@
 	"item": [
 		{
 			"name": "GetAPI_Correct",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Status code is 200', () => pm.response.to.have.status(200));"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -28,6 +39,17 @@
 		},
 		{
 			"name": "GetAPI_ShouldFail",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Status code is 200', () => pm.response.to.have.status(200));"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
